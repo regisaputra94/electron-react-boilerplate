@@ -1,13 +1,9 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable react/jsx-no-comment-textnodes */
-/* eslint-disable jsx-a11y/label-has-for */
-// @flow
 import React, { Component } from 'react';
-import Logo from '../../assets/img/racing.png';
+import Logo from '../../../assets/img/racing.png';
 
 type Props = {};
 
-export default class Home extends Component<Props> {
+export default class Login extends Component<Props> {
   props: Props;
 
   render() {
@@ -57,7 +53,7 @@ export default class Home extends Component<Props> {
 
               <div className="uk-margin">
                 <button
-                  type="submit"
+                  type="button"
                   className="uk-button uk-button-primary uk-align-center"
                 >
                   Login

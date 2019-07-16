@@ -1,5 +1,4 @@
 {
-  "HOME": "/login",
-  "DASHBOARD": "/",
-  "COUNTER": "/counter"
+  "LOGIN": "/login",
+  "DASHBOARD": "/"
 }
