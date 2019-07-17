@@ -21,14 +21,14 @@ export default class Sidebar extends React.Component {
               styles.sidebar_menu__item_active
             }`}
           >
-            <a href="#">
+            <a href="/dashboard">
               <span className="uk-margin-small-right" uk-icon="icon: list" />
               Lihat Data
             </a>
           </li>
 
           <li className={`${styles.sidebar_menu__item}`}>
-            <a href="#">
+            <a href="/entry_data">
               <span
                 className="uk-margin-small-right"
                 uk-icon="icon: comments"

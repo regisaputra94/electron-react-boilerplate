@@ -1,4 +1,6 @@
 {
   "LOGIN": "/login",
-  "DASHBOARD": "/"
+  "DASHBOARD": "/EntryData",
+  "DAFTAR": "/",
+  "ENTRYDATA": "/entry_data"
 }
